@@ -11,7 +11,7 @@
 	</path>	
 	<path id="TravisExercise.classpath">
 		<pathelement location="${builddir}"/>
-		<pathelement refid="JUnit 4.libraryclasspath"/>
+		<path refid="JUnit 4.libraryclasspath"/>
 	</path>
 
 	<target name="init">
